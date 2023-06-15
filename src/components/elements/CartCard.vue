@@ -8,8 +8,9 @@
           <p class="card-text text-light col-3">1</p>
           <button class="btn btn-light text-dark col-1" @click="innerAddItemToCart"> Delete</button>
       </div>
-      
+
   </div>
+
 </template>
 
 <script>
