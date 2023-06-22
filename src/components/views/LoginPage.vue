@@ -5,10 +5,10 @@
 </template>
 
 <script>
-// import LoginBakery from "../elements/LoginBakery.vue";
+// import LoginBakery from '../elements/LoginBakery.vue'
 
 export default {
-  name: 'HeaderBakery',
+  name: 'LoginPage',
   props:{
 
   }

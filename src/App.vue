@@ -40,6 +40,14 @@ export default {
       }
       return items;
     }
+
+  // renderItemsCarrito() {
+  //   return this.itemsCarrito.map(element => {
+  //     const producto = this.inventary.find(item => item.id === element.id);
+  //     return producto;
+  //   });
+  // }
+
   },
   methods: {
     addItemToCart(productId) {
@@ -51,7 +59,7 @@ export default {
     HeaderBakery,
     LoginBakery,
     MainPage,
-    //FormularioWeb,
+    // FormularioWeb,
   }
 }
 </script>
