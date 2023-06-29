@@ -38,7 +38,7 @@
 <script>
 import ShoppingCart from './ShoppingCart.vue';
 export default {
-  name: 'HeaderBakery',
+  name: 'HeaderPlaces',
   props: {
       itemsEnCarrito: Array,
       inventario: {

@@ -1,10 +1,11 @@
 <template>
   <div>
-    <HeaderBakery :inventario="inventary" :itemsEnCarrito="renderItemsCarrito" />
+    <HeaderPlaces :inventario="inventary" :itemsEnCarrito="renderItemsCarrito" />
     <!-- <FormularioWeb/> -->
     <MainPage :inventario="inventary" @itemAdded="addItemToCart" />
 
     <LoginBakery />
+import HeaderPlaces from './components/elements/HeaderPlaces.vue'
 
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
@@ -12,7 +13,7 @@
 
 <script>
 import HelloWorld from './components/elements/HelloWorld.vue'
-import HeaderBakery from './components/elements/HeaderBakery.vue'
+import HeaderPlaces from './components/elements/HeaderPlaces.vue'
 import LoginBakery from './components/elements/LoginBakery.vue'
 import MainPage from './components/views/MainPage.vue'
 import products from './assets/products.js'
@@ -56,11 +57,11 @@ export default {
   },
   components: {
     HelloWorld,
-    HeaderBakery,
+    HeaderPlaces,
     LoginBakery,
     MainPage,
-    // FormularioWeb,
-  }
+
+}
 }
 </script>
 
